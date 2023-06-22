@@ -1,0 +1,5 @@
+services:
+    kaileymsnay.postborder.listener:
+        class: kaileymsnay\postborder\event\main_listener
+        tags:
+            - { name: event.listener }
